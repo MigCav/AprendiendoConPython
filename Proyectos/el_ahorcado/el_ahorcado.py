@@ -40,7 +40,8 @@ def ahorcado():
         
         letra_usuario = input("Escoge una letra: ").upper()
         
-        #A abecedario se le restan los valores que esten en letras_adivinadas y si la letra ingresada esta en el resultantes es que no habia sido ingresada, por lo cual se ingresa en la lista
+        #A abecedario se le restan los valores que esten en letras_adivinadas y si la letra ingresada esta en el resultantes es que no habia sido ingresada
+        #por lo cual se ingresa en la lista
         if letra_usuario in abecedario - letras_adivinadas:
             letras_adivinadas.add(letra_usuario)
             
